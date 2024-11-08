@@ -1,4 +1,4 @@
-const countWordOccurrences = (sentence: string, word: string) => {
+const countWordOccurrences = (sentence: string, word: string): number => {
   let count: number = 0;
 
   const words = sentence.split(" ");
